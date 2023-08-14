@@ -1,0 +1,52 @@
+.popupFullReg{
+
+    display:none;
+  
+    position: fixed;
+    top: 30%;
+    left: 15vw;
+  
+    background-image: url(../images/background.svg);
+    width: 70vw;
+    height: 50vh;
+    color: whitesmoke  ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  
+  }
+  
+  #grid-container {
+
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    height: 75%;
+    grid-gap: 2%;
+    grid-template-rows: auto;
+  }
+
+
+  #grid-container div {
+
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+  }
+
+
+  #botonera {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row ;
+    width: 100%;
+
+    justify-content: space-around;
+
+  }
+
+  #botonera button {
+
+    width: 25%;
+  }

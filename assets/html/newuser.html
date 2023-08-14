@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link rel="stylesheet" href="../css/style.css">
+       
+    </head>
+
+
+    <body>
+
+
+        <div class="popupUpdate" id="popup">
+            
+            <p id="statusID"></p>
+            <p id="codeID"></p>
+            <p id="descriptionID"></p>
+            <button id="nextButton">Siguiente</button>
+        
+        </div>
+        
+        
+        <section id="alta-seccion">
+  
+            <h2>Alta Usuario</h2>
+            
+            <div class="form-alta">
+                <p>Nombre*</p>
+                <input class="data-income" id="name"></input>
+        
+                <p>Apellido*</p>
+                <input class="data-income" id="surname"></input>
+        
+                <!-- <p>Departamento</p> -->
+                
+            <label for="elementos">Elige un departamento:</label>
+            <select  id="dptos" name="elementos">
+                
+            </select>
+        
+            <div id="otroElementoDiv" style="display: none;">
+                <label for="otroElemento">Nuevo departamento:</label>
+                <input type="text" class="data-income" id="otroElemento" name="otroElemento">
+            </div>
+        
+            <label for="elementos">Elige un Area:</label>
+            <select  id="area" name="elementos">    
+            </select>
+        
+            <div id="otroAreaDiv" style="display: none;">
+                <label for="otroAreato">Nueva Area:</label>
+                <input type="text" class="data-income" id="otroArea" name="otroArea">
+            </div>
+        
+                <p>Puesto/rol</p>
+                <input class="data-income" id="position"></input>
+        
+                <p>Usuario</p>
+                <input class="data-income" id="userName"></input>
+        
+                <p>Email</p>
+                <input class="data-income" id="mail"></input>
+        
+                <p>Fecha Ingreso</p>
+                <input class="data-income" type = "date" id="date"></input>
+        
+                <p>Interno</p>
+                <input class="data-income" id="extension"></input>
+        
+                <p>Contraseña</p>
+                <input class="data-income" id="ext_pw"></input>
+                
+            <button id="enviarForm">Enviar</button>
+            </div>
+        </section>
+        <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-0z8xjZTPq7fW51EU8j7vlS3OcpJxubf3uiZl0o2zOcM=" crossorigin="anonymous"></script> -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <!-- <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script> -->
+        <script src="../js/newUser.js"></script>
+        
+    </body>
+</html>
