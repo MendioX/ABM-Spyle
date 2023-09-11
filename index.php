@@ -18,7 +18,7 @@
     <body>
     <header class="header">
     
-    <h2>NOMINA 2.0</h2>
+    <h2> NOMINA 2.0</h2>
     
     <nav>
             <div class="nav-movile-background"></div>
@@ -30,6 +30,7 @@
             
             <ul>
                 <li><a href="#principal">Buscar</a></li>
+                <li><a href="#panelDeptos">Departamentos</a></li>  
                 <li><a href="#alta-seccion">Alta</a></li>                
                 <!-- <li><a href="#main-trabajos">Baja</a></li>
                 <li><a href="#main-nosotros">Modificar</a></li> -->
@@ -99,23 +100,18 @@
                     <label>ID</label>
                     <input type="text" id=""></input>
                 </div> 
-
+                <button id="pushButton">Actualizar</button>
+                <button id="closeButton">Cerrar</button>
             
             </div>
-            <div id="botonera">
-
             
-            <button id="pushButton">Actualizar</button>
-            <button id="closeButton">Cerrar</button>
-
-            </div>
             
         </div>
     
 	<section class="principal" id="principal">
 
 <table class="myTable">
-        <thead>
+        <thead >
             <tr>
             <th>ID</th>
             <th>Status</th>
@@ -162,6 +158,16 @@
 
 </table>
 </section>
+
+<section class="panelDeptos" id="panelDeptos">
+<div><h2>Personas X Departamento</h2></div>
+<div class="gridcontainer" id="gridcontainer">
+
+</div>
+
+</section>
+
+
 
 <div class="popupUpdate" id="popup">
             
@@ -327,7 +333,8 @@
     <script src="./assets/js/newUser.js"></script>
     <script src="./assets/js/dinamicConsult.js"></script>
     <script src="./assets/js/moreInfo.js"></script>
-
+    <script src="./assets/js/in-out-user.js"></script>
+    <script src="./assets/js/count-dpto.js"></script>
 	</body>
    
 </html>

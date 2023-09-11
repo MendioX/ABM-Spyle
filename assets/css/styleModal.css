@@ -6,13 +6,14 @@
     top: 30%;
     left: 15vw;
   
-    background-image: url(../images/background.svg);
+    background-image: url(../images/backWhiteFoother.svg);
     width: 70vw;
     height: 50vh;
-    color: whitesmoke  ;
+    color: rgb(151, 145, 145)  ;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    z-index: 100;
   
   }
   
@@ -46,7 +47,7 @@
 
   }
 
-  #botonera button {
-
-    width: 25%;
+  #grid-container button {
+    width: 60%;
+    margin-right: -31%;
   }

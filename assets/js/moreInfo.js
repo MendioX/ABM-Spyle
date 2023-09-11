@@ -21,6 +21,7 @@ $(document).ready(function() {
                 
                 const status = JSON.parse(response)
                 document.getElementById("popupReg").style.display = "flex";
+                document.getElementById("principal").style.filter = "blur(5px)";
                 //console.log(status);
                 document.getElementById("idReg").value = status[0].id
                 document.getElementById("statusReg").value = status[0].status
@@ -47,4 +48,6 @@ document.getElementById("closeButton").addEventListener("click",closePopUp)
 
 function closePopUp(){
     document.getElementById("popupReg").style.display = "none";
+    document.getElementById("principal").style.filter = "blur(0px)";
+
 }

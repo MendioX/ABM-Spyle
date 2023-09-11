@@ -125,7 +125,7 @@ let dataUpdateUser = [];
     console.log(dataUpdateUser)
     $.ajax({
         type: "POST",
-        url: "../php/updateUser.php",
+        url: "../TSAltasSpyle/assets/php/updateUser.php",
         data:{
             userData : dataUpdateUser,
         },
