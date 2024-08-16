@@ -2,7 +2,7 @@
 
 include "conexion.php";
 
-$sql = "SELECT dpto, COUNT(*) AS cantidad_registros FROM users GROUP BY dpto";
+$sql = "SELECT dpto, COUNT(*) AS cantidad_registros FROM users WHERE status='ACTIVO' GROUP BY dpto";
 
 
 $result = $conn->query($sql);
